@@ -1,7 +1,7 @@
 [Unit]
 Description=Reverse SSH Tunnel to serverhostname
 ConditionPathExists=|/usr/bin
-After=network.target
+After=network-online.target
 
 [Service]
 User=clientusername
